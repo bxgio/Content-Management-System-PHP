@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px; /* Increased max-width */
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Horizontally center items */
+}
+
+header, footer {
+    position: relative;
+    background:linear-gradient(90.37deg, #FFFFFF 1.67%, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+nav {
+    background:linear-gradient(90.37deg, #FFFFFF 1.67%, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; /* Fixed positioning */
+    width: 100%; /* Full width */
+    top: 0;
+}
+
+nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+}
+
+aside {
+    float: left;
+    width: 25%;
+    background:linear-gradient(90.37deg, #FFFFFF 1.67%, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+    color: #fff;
+    padding: 20px;
+}
+
+aside button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #020229;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+aside button:hover {
+    background-color: #00408a;
+}
+
+main {
+    float: right;
+    width: 75%;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.content-card {
+    background-color: #f9f9f9; /* Light gray background */
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 30px; /* Increase padding */
+    margin: 20px; /* Add margin between cards */
+    width: 400px; /* Set the width of the card */
+    text-align: center; /* Align content in center */
+}
+
+.content-card:hover {
+    border: 2px solid #c30fe7;     background:linear-gradient(90.37deg, #FFFFFF 1.67%, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+    /* Border highlighting effect */
+}
+
+.content-card h4 {
+    margin-top: 0;
+}
+
+.content-card img {
+    width: 100%;
+    height: auto;
+margin-bottom: 20px; /* Increased margin */
+}
+
+.content-card p {
+margin-bottom: 20px; /* Increased margin */
+}
+
+.edit-button,
+.delete-button {
+padding: 8px 16px;
+margin-right: 10px;
+background-color: #960ba8;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background:linear-gradient(90.37deg, #FFFFFF 1.67%, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+}
+
+h2 {
+    font-family: "Arial", sans-serif; /* Change font family */
+    color: #007bff; /* Change color */
+}
+
+h3 {
+    font-family: "Times New Roman", serif; /* Change font family */
+    color: #333; /* Change color */
+}
+
+.username {
+    color: #960ba8; /* Different color for username */
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background:linear-gradient(90.37deg, #FFFFFF 1.67%, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+}
+
+.pagination .active {
+    background:linear-gradient(90.37deg, #FFFFFF 1.67%, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+    font-weight: bold;
+}

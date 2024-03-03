@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    color: #333; /* Dark color for labels */
+}
+
+form input[type="text"],
+form input[type="file"],
+form textarea {
+    width: calc(100% - 22px); /* Adjusted width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+form textarea {
+    height: 100px; /* Set textarea height */
+}
+
+button[type="submit"] {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    background:linear-gradient(90.37deg, #FFFFFF 1.67%, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 15px;
+}
+
+.back-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff; /* Blue color for link */
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
