@@ -7,4 +7,4 @@ HTML
 CSS
 Xampp Server
 ### Usage ###
-down load the code or clone the repo navigate import the sql file to the database preferably PHPmyAdmin then localhost//:cms/login.php
+download the code or clone the repo then navigate to the directory import the sql file to the database preferably PHPmyAdmin goto localhost//:cms/login.php in a browser
